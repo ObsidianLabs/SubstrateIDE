@@ -1,4 +1,4 @@
-[submodule "polkadot-js"]
+[submodule "extensions/polkadot-js"]
 	path = extensions/polkadot-js
 	url = https://github.com/ObsidianLabs/extension.git
 	branch = v0.24.1-electron
