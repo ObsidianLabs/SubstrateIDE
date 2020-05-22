@@ -38,6 +38,7 @@ function createWindow () {
     minWidth: 820,
     minHeight: 600,
     backgroundColor: '#2e2e32',
+    icon: path.join(__dirname, 'icon.png'),
     webPreferences: {
       nodeIntegration: true,
       webviewTag: true,

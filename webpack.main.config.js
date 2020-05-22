@@ -6,8 +6,6 @@ const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin')
 
 const baseConfig = require('./webpack.base.config')
 
-console.log(process.env.BUILD)
-
 module.exports = merge.smart(baseConfig, {
   target: 'electron-main',
   entry: {
@@ -58,6 +56,10 @@ module.exports = merge.smart(baseConfig, {
       {
         from: 'extensions/polkadot-js/packages/extension/build',
         to: 'extensions/polkadot-js'
+      },
+      {
+        from: 'assets/icon.png',
+        to: 'icon.png'
       }
     ]),
     new ForkTsCheckerWebpackPlugin({

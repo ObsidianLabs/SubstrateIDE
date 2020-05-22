@@ -1532,10 +1532,10 @@
     "@obsidians/terminal" "^0.1.0"
     "@obsidians/ui-components" "^0.1.0"
 
-"@obsidians/substrate-project@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@obsidians/substrate-project/-/substrate-project-0.1.0.tgz#778ae98fec73aa2d14e490a43d050da0f8161d6e"
-  integrity sha512-RRa1guOQ7Htt4c+eI81z1U4rdlmGbLhcixVUn1FOiUNx2mcLVvhaf7VLwBo3V3WdxF3XVuyhoxToIun2pelILQ==
+"@obsidians/substrate-project@^0.1.0", "@obsidians/substrate-project@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@obsidians/substrate-project/-/substrate-project-0.1.1.tgz#d444d84c9bec4f52303e8db7ca6d2e09ad40c41f"
+  integrity sha512-Mqr7q/OK3YcLUsUy0Vyw66eF9Gdp0FA3/al/dJ66IzCTTf2CYZigo1HQpqK+dLt+Rou4RA3jmet9clu2yeJKAQ==
   dependencies:
     "@obsidians/code-editor" "^0.1.0"
     "@obsidians/file-ops" "^0.1.0"
@@ -1544,17 +1544,18 @@
     "@obsidians/substrate-compiler" "^0.1.0"
     "@obsidians/terminal" "^0.1.0"
     "@obsidians/ui-components" "^0.1.0"
-    "@obsidians/workspace" "^0.1.0"
+    "@obsidians/workspace" "^0.1.1"
     immutable "^4.0.0-rc.12"
     lodash "^4.17.15"
 
-"@obsidians/substrate-welcome@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@obsidians/substrate-welcome/-/substrate-welcome-0.1.0.tgz#e178b9b7d1d2d4c3b1c18606556e4c2ab008cb6f"
-  integrity sha512-OWkBgTyxO6Ts0s6qHYl6nECOtjzwGSTzF4YGX+xU3rkoYIsd8ZvXMJsSM4aX32GGdwKv7iHAcUg1gGT5f5KugQ==
+"@obsidians/substrate-welcome@^0.1.1":
+  version "0.1.1"
+  resolved "http://192.168.132.141:4873/@obsidians%2fsubstrate-welcome/-/substrate-welcome-0.1.1.tgz#e9333d9e659b77e8b7e562e773776e618c69ee9b"
+  integrity sha512-690mndHwEQMxr1zJfX1/V0woihu0ILgg8YW1+Sk2YNtKGhjO423GkHI6W1Do3sg2tGj5BgBnZGj57k4rnHOHUA==
   dependencies:
     "@obsidians/file-ops" "^0.1.0"
     "@obsidians/ipc" "^0.1.0"
+    "@obsidians/notification" "^0.1.0"
     "@obsidians/substrate-compiler" "^0.1.0"
     "@obsidians/substrate-instances" "^0.1.0"
     "@obsidians/ui-components" "^0.1.0"
@@ -1584,10 +1585,10 @@
     react-split-pane "^0.1.89"
     reactstrap "^8.4.1"
 
-"@obsidians/workspace@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@obsidians/workspace/-/workspace-0.1.0.tgz#4d5b521d7eef6effec6ca9193578ae4218322d28"
-  integrity sha512-expm208dgNOlkLGF9n97daPHHqXGTyregBe1sQTgN88E2MPEaaN/ID1wyg57y+wgMJxjILGqgb+6R6tbLfpiQg==
+"@obsidians/workspace@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@obsidians/workspace/-/workspace-0.1.1.tgz#363d45cf97a5f0265c94ba7d3b41b93e53b87040"
+  integrity sha512-C+RPXxjj043eIwQVgdYsijollKNuDgxFLfooomnBOklJnnOV3W4MsFYqff2gHJH221Mnfex2esd9k55IJ3h1Ig==
   dependencies:
     "@obsidians/code-editor" "^0.1.0"
     "@obsidians/file-ops" "^0.1.0"
@@ -2068,9 +2069,9 @@
   integrity sha512-1OzrNb4RuAzIT7wHSsgZRlMBlNsJl+do6UblR7JMW4oB7bbR+uBEYtUh7gEc/jM84GGilh68lSOokyM/zNUlBA==
 
 "@types/semver@^7.1.0":
-  version "7.1.0"
-  resolved "http://registry.yarnpkg.com/@types%2fsemver/-/semver-7.1.0.tgz#c8c630d4c18cd326beff77404887596f96408408"
-  integrity sha512-pOKLaubrAEMUItGNpgwl0HMFPrSAFic8oSVIvfu1UwcgGNmNyK9gyhBHKmBnUTwwVvpZfkzUC0GaMgnL6P86uA==
+  version "7.2.0"
+  resolved "http://192.168.132.141:4873/@types%2fsemver/-/semver-7.2.0.tgz#0d72066965e910531e1db4621c15d0ca36b8d83b"
+  integrity sha512-TbB0A8ACUWZt3Y6bQPstW9QNbhNeebdgLX4T/ZfkrswAfUzRiXrgd9seol+X379Wa589Pu4UEx9Uok0D4RjRCQ==
   dependencies:
     "@types/node" "*"
 
@@ -2698,6 +2699,11 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
+at-least-node@^1.0.0:
+  version "1.0.0"
+  resolved "http://192.168.132.141:4873/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
+  integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
+
 atob@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
@@ -3300,10 +3306,10 @@ builder-util-runtime@8.4.0:
     debug "^4.1.1"
     sax "^1.2.4"
 
-builder-util-runtime@8.6.2:
-  version "8.6.2"
-  resolved "http://registry.yarnpkg.com/builder-util-runtime/-/builder-util-runtime-8.6.2.tgz#8270e15b012d8d3b110f3e327b0fd8b0e07b1686"
-  integrity sha512-9QnIBISfhgQ2BxtRLidVqf/v5HD73vSKZDllpUmGd2L6VORGQk7cZAPmPtw4HQM3gPBelyVJ5yIjMNZ8xjmd1A==
+builder-util-runtime@8.7.0:
+  version "8.7.0"
+  resolved "http://192.168.132.141:4873/builder-util-runtime/-/builder-util-runtime-8.7.0.tgz#e48ad004835c8284662e8eaf47a53468c66e8e8d"
+  integrity sha512-G1AqqVM2vYTrSFR982c1NNzwXKrGLQjVjaZaWQdn4O6Z3YKjdMDofw88aD9jpyK9ZXkrCxR0tI3Qe9wNbyTlXg==
   dependencies:
     debug "^4.1.1"
     sax "^1.2.4"
@@ -4985,17 +4991,16 @@ electron-updater@^4.1.2:
     semver "^6.3.0"
 
 electron-updater@^4.2.5:
-  version "4.2.5"
-  resolved "http://registry.yarnpkg.com/electron-updater/-/electron-updater-4.2.5.tgz#dbced8da6f8c6fc2dc662f2776131f5a49ce018d"
-  integrity sha512-ir8SI3capF5pN4LTQY79bP7oqiBKjgtdDW378xVId5VcGUZ+Toei2j+fgx1mq3y4Qg19z4HqLxEZ9FqMD0T0RA==
+  version "4.3.1"
+  resolved "http://192.168.132.141:4873/electron-updater/-/electron-updater-4.3.1.tgz#9d485b6262bc56fcf7ee62b1dc1b3b105a3e96a7"
+  integrity sha512-UDC5AHCgeiHJYDYWZG/rsl1vdAFKqI/Lm7whN57LKAk8EfhTewhcEHzheRcncLgikMcQL8gFo1KeX51tf5a5Wg==
   dependencies:
     "@types/semver" "^7.1.0"
-    builder-util-runtime "8.6.2"
-    fs-extra "^8.1.0"
+    builder-util-runtime "8.7.0"
+    fs-extra "^9.0.0"
     js-yaml "^3.13.1"
     lazy-val "^1.0.4"
     lodash.isequal "^4.5.0"
-    pako "^1.0.11"
     semver "^7.1.3"
 
 electron@^8.2.3:
@@ -6025,6 +6030,16 @@ fs-extra@^8.1.0:
     graceful-fs "^4.2.0"
     jsonfile "^4.0.0"
     universalify "^0.1.0"
+
+fs-extra@^9.0.0:
+  version "9.0.0"
+  resolved "http://192.168.132.141:4873/fs-extra/-/fs-extra-9.0.0.tgz#b6afc31036e247b2466dc99c29ae797d5d4580a3"
+  integrity sha512-pmEYSk3vYsG/bF651KPUXZ+hvjpgWYw/Gc7W9NFUe3ZVLczKKWIij3IKpOrQcdw4TILtibFslZ0UmR8Vvzig4g==
+  dependencies:
+    at-least-node "^1.0.0"
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^1.0.0"
 
 fs-minipass@^1.2.5:
   version "1.2.7"
@@ -7999,6 +8014,15 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+jsonfile@^6.0.1:
+  version "6.0.1"
+  resolved "http://192.168.132.141:4873/jsonfile/-/jsonfile-6.0.1.tgz#98966cba214378c8c84b82e085907b40bf614179"
+  integrity sha512-jR2b5v7d2vIOust+w3wtFKZIfpC2pnRmFAhAC/BuweZFQR8qZzxH1OyrQ10HmdVYiXWkYUqPVsz91cG7EL2FBg==
+  dependencies:
+    universalify "^1.0.0"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
 jsonify@~0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
@@ -9612,11 +9636,6 @@ pako@^1.0.10, pako@~1.0.5:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.10.tgz#4328badb5086a426aa90f541977d4955da5c9732"
   integrity sha512-0DTvPVU3ed8+HNXOu5Bs+o//Mbdj9VNQMUOe9oKCwh8l0GNwpTDMKCWbRjgtD291AWnkAgkqA/LOnQS8AmS1tw==
-
-pako@^1.0.11:
-  version "1.0.11"
-  resolved "http://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
-  integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
 
 parallel-transform@^1.1.0:
   version "1.2.0"
@@ -13339,6 +13358,11 @@ universalify@^0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
+
+universalify@^1.0.0:
+  version "1.0.0"
+  resolved "http://192.168.132.141:4873/universalify/-/universalify-1.0.0.tgz#b61a1da173e8435b2fe3c67d29b9adf8594bd16d"
+  integrity sha512-rb6X1W158d7pRQBg5gkR8uPaSfiids68LTJQYOtEUhoJUWBdaQHsuT/EUduxXYxcrt4r5PJ4fuHW1MHT6p0qug==
 
 unorm@^1.3.3:
   version "1.6.0"

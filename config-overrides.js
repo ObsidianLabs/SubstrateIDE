@@ -1,3 +1,4 @@
+const os = require('os')
 const path = require('path')
 const webpack = require('webpack')
 const {
@@ -36,6 +37,7 @@ const overrides = [
   overrideProcessEnv({
     BUILD: JSON.stringify(process.env.BUILD),
     PROJECT_NAME: JSON.stringify(process.env.PROJECT_NAME),
+    OS_IS_LINUX: JSON.stringify(os.type() === 'Linux'),
   }),
 ]
 
