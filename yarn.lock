@@ -1550,7 +1550,7 @@
 
 "@obsidians/substrate-welcome@^0.1.1":
   version "0.1.1"
-  resolved "http://192.168.132.141:4873/@obsidians%2fsubstrate-welcome/-/substrate-welcome-0.1.1.tgz#e9333d9e659b77e8b7e562e773776e618c69ee9b"
+  resolved "https://registry.yarnpkg.com/@obsidians/substrate-welcome/-/substrate-welcome-0.1.1.tgz#e9333d9e659b77e8b7e562e773776e618c69ee9b"
   integrity sha512-690mndHwEQMxr1zJfX1/V0woihu0ILgg8YW1+Sk2YNtKGhjO423GkHI6W1Do3sg2tGj5BgBnZGj57k4rnHOHUA==
   dependencies:
     "@obsidians/file-ops" "^0.1.0"
