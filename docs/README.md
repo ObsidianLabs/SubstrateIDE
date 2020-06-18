@@ -72,7 +72,7 @@ Please refer to: https://polkadot.js.org/apps/#/explorer
 #### Download
 Download address: https://github.com/ObsidianLabs/SubstrateIDE/releases
 
-Please download files according to the system, download `.dmg` file for `macOS` and download `.AppImage` file for `Linux`
+Please download files according to the system, e.g. download `.dmg` file for `macOS` and download `.AppImage` file for `Linux`
 
 #### Installation
 
@@ -86,8 +86,9 @@ Right-click `SubstrateIDE-0.1.1.AppImage`, select `Properties` => `Permissions` 
 ### Ready to work
 After the Substrate IDE is properly installed and started for the first time, the Substrate IDE displays a welcome page.
 
-![](./img/dependency.png)
-
+<p align="center">
+  <img src="./img/dependency.png" width="600px">
+</p>
 
 After starting Substrate IDE, the welcome page shows two dependencies - Docker and Rust.
 
@@ -102,36 +103,50 @@ After entering the main interface, the first thing you see is the `My Projects` 
 
 Click the `New` button to pop up the Create Project window, type the project name in `Project name` field, and select the appropriate version in the `Version` drop-down menu, click the `Create Project` button, Substrate IDE will start downloading the template, wait until the creation of the project is done.
 
-![](./img/create_project.png)
+<p align="center">
+  <img src="./img/create_project.png" width="600px">
+</p>
 
 After the project is created, it will automatically open the project and switch to the project editor.
 
-![](./img/project_editor.png)
+<p align="center">
+  <img src="./img/project_editor.png" width="600px">
+</p>
 
 ### Build the project
 Click the second button (hammer-shaped Build button) in the toolbar above the file tree, and Substrate IDE will start compiling the current project.
 
-![](./img/build_button.png)
+<p align="center">
+  <img src="./img/build_button.png" width="200px">
+</p>
 
 *Compiling a project is time-consuming. Depending on the computer configuration, the compilation time may vary from half an hour to two hours.
 
-![](./img/main.png)
+<p align="center">
+  <img src="./img/main.png" width="600px">
+</p>
 
 ### Start Node
 After compiling the project, you can start a node.
 
 Click the `Network` tab at the top of Substrate IDE, and the main page will switch to the node management page.
 
-![](./img/network_manager.png)
+<p align="center">
+  <img src="./img/network_manager.png" width="600px">
+</p>
 
 Select one of the nodes and click the `Start` button to start the node, and the log monitor will show up below. After starting a node, click the `Join` button on the remaining nodes to add these nodes to the network. Every time you start and join a node, a new log monitor below will be opened. You can click on different tabs to view the logs of each node.
 
-![](./img/start_node.png)
+<p align="center">
+  <img src="./img/start_node.png" width="600px">
+</p>
 
 ### Manage keypairs
 Click the orange button in the bottom left corner, the `polkadot{.js}` keypair manager will pop up, click `Yes, allow this application access` to complete the authorization.
 
-![](./img/keypair_manager.png)
+<p align="center">
+  <img src="./img/keypair_manager.png" width="400px">
+</p>
 
 Users can create, modify, and delete keys through the keypair manager. At the same time, the manager is also responsible for signing the transactions constructed by Substrate IDE. When a signature is required, the manager will pop up the signature window.
 
@@ -140,19 +155,21 @@ For more info, please refer to: https://github.com/polkadot-js/extension
 ### Start a front-end development
 The front-end development depends on the startup of the node. When a node starts correctly, switch back to the project editor page and click the third button (Start Frontend button) in the toolbar above the file tree. Substrate IDE will start the front-end development.
 
-![](./img/start_frontend_button.png)
+<p align="center">
+  <img src="./img/start_frontend_button.png" width="200px">
+</p>
 
 The started front-end development is based on the Substrate Frontend template: https://github.com/substrate-developer-hub/substrate-front-end-template
 
 Users can use the launched front-end development to create transactions, and use the keys in keypair manager to sign the transaction:
-
-[TBD]
 
 [Picture]
 
 ### Polkadot JS Explorer
 After the node is started, click the `Polkadot JS` tab at the top of the Substrate IDE, the page will be switched to the block data browser, and the `polkadot{.js}` window will pop up to request authorization. After authorizing by clicking `Yes, allow this application access`, the block data browser will be displayed and the user can check the data on the current chain.
 
-![](./img/polkadotjs_explorer.png)
+<p align="center">
+  <img src="./img/polkadotjs_explorer.png" width="600px">
+</p>
 
 Through Polkadot JS Explorer users can view the data on the chain and create transactions. For more info, please refer to: https://polkadot.js.org/apps/#/explorer
