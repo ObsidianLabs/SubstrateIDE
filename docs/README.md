@@ -81,33 +81,33 @@ Double-click to open `SubstrateIDE-0.1.1.dmg` and drag `SubstrateIDE` into the `
 
 #### Linux
 (Taking Ubuntu 18.04 as an example, different Linux systems may have slightly different installation methods)
-Right-click `SubstrateIDE-0.1.1.AppImage`, select `Properties` => `Permissions` => `Execute`, check `Allow executing file as progrom`, close this window and double-click to open the application
+Right-click `SubstrateIDE-0.1.1.AppImage`, select `Properties` => `Permissions` => `Execute` and then check the `Allow executing file as progrom` option. Now Substrate IDE is ready to run.
 
 ### Ready to work
-After the Substrate IDE is properly installed and started for the first time, the Substrate IDE displays a welcome page.
+After Substrate IDE is properly installed and started for the first time, Substrate IDE displays a welcome page.
 
 <p align="center">
   <img src="./img/dependency.png" width="600px">
 </p>
 
-After starting Substrate IDE, the welcome page shows two dependencies - Docker and Rust.
+The welcome page shows two dependencies - Docker and Rust.
 
-- Docker: If Docker is not installed, you can install it through the `Install Docker` button; if Docker is not started, you can start it through the `Start Docker` button.
-- Rust with WASM: After starting Docker, click `Install` and select the required version in the drop-down menu, such as `nightly-20200418`. After clicking it, a download window will pop up, waiting patiently for download.
+- Docker: If Docker is not installed, you can install it through the `Install Docker` button. If Docker is not started, you can start it through the `Start Docker` button.
+- Rust with WASM: After starting Docker, click `Install` button and select the required version in the dropdown menu, such as `nightly-20200418`. After clicking it, a download window will pop up, waiting patiently for download.
 
-After downloading and starting the two dependencies, the gray `Skip` button will be changed to the red `Get Started` button, and click to enter the main interface of Substrate IDE.
+After downloading and starting the two dependencies, the gray `Skip` button will be changed to a red `Get Started` button, and click to enter the main interface of Substrate IDE.
 
 
 ### Create a project
 After entering the main interface, the first thing you see is the `My Projects` project list. If you open it for the first time, this list is empty.
 
-Click the `New` button to pop up the Create Project window, type the project name in `Project name` field, and select the appropriate version in the `Version` drop-down menu, click the `Create Project` button, Substrate IDE will start downloading the template, wait until the creation of the project is done.
+Click the `New` button to pop up the Create Project window, type the project name in `Project name` field, and select the appropriate version in the `Version` dropdown menu, click the `Create Project` button, Substrate IDE will start downloading the template, wait until the creation of the project is done.
 
 <p align="center">
   <img src="./img/create_project.png" width="600px">
 </p>
 
-After the project is created, it will automatically open the project and switch to the project editor.
+After the project is created, Substrate IDE will switch to the project editor and the project will be opened.
 
 <p align="center">
   <img src="./img/project_editor.png" width="600px">
@@ -117,7 +117,7 @@ After the project is created, it will automatically open the project and switch 
 Click the second button (hammer-shaped Build button) in the toolbar above the file tree, and Substrate IDE will start compiling the current project.
 
 <p align="center">
-  <img src="./img/build_button.png" width="200px">
+  <img src="./img/build_button.png" width="300px">
 </p>
 
 *Compiling a project is time-consuming. Depending on the computer configuration, the compilation time may vary from half an hour to two hours.
@@ -129,7 +129,7 @@ Click the second button (hammer-shaped Build button) in the toolbar above the fi
 ### Start Node
 After compiling the project, you can start a node.
 
-Click the `Network` tab at the top of Substrate IDE, and the main page will switch to the node management page.
+Click the `Network` tab at the top of Substrate IDE, and Substrate IDE will switch to the network management page.
 
 <p align="center">
   <img src="./img/network_manager.png" width="600px">
@@ -148,28 +148,32 @@ Click the orange button in the bottom left corner, the `polkadot{.js}` keypair m
   <img src="./img/keypair_manager.png" width="400px">
 </p>
 
-Users can create, modify, and delete keys through the keypair manager. At the same time, the manager is also responsible for signing the transactions constructed by Substrate IDE. When a signature is required, the manager will pop up the signature window.
+Users can create, modify, and delete keys through the keypair manager. At the same time, the manager is also responsible for signing the transactions constructed by Substrate IDE. When a signature is required, the manager will pop up and ask for signing.
 
 For more info, please refer to: https://github.com/polkadot-js/extension
 
 ### Start a front-end development
-The front-end development depends on the startup of the node. When a node starts correctly, switch back to the project editor page and click the third button (Start Frontend button) in the toolbar above the file tree. Substrate IDE will start the front-end development.
+The front-end development depends on the startup of the node. When a node starts correctly, switch back to the project editor and click the third button (Start Frontend button) in the toolbar above the file tree. Substrate IDE will start the front-end development.
 
 <p align="center">
-  <img src="./img/start_frontend_button.png" width="200px">
+  <img src="./img/start_frontend_button.png" width="300px">
 </p>
 
 The started front-end development is based on the Substrate Frontend template: https://github.com/substrate-developer-hub/substrate-front-end-template
 
 Users can use the launched front-end development to create transactions, and use the keys in keypair manager to sign the transaction:
 
-[Picture]
+<p align="center">
+  <img src="./img/frontend.png" width="600px">
+</p>
 
 ### Polkadot JS Explorer
-After the node is started, click the `Polkadot JS` tab at the top of the Substrate IDE, the page will be switched to the block data browser, and the `polkadot{.js}` window will pop up to request authorization. After authorizing by clicking `Yes, allow this application access`, the block data browser will be displayed and the user can check the data on the current chain.
+After the node is started, click the `Polkadot JS` tab at the top of Substrate IDE, the page will be switched to the block data browser, and the `polkadot{.js}` window will pop up to request authorization. After authorizing by clicking `Yes, allow this application access`, the block data browser will be displayed and the user can check the data on the current chain.
 
 <p align="center">
   <img src="./img/polkadotjs_explorer.png" width="600px">
 </p>
 
-Through Polkadot JS Explorer users can view the data on the chain and create transactions. For more info, please refer to: https://polkadot.js.org/apps/#/explorer
+Through Polkadot JS Explorer users can view the data on the chain and create transactions.
+
+For more info, please refer to: https://polkadot.js.org/apps/#/explorer
