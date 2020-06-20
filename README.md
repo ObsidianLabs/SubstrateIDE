@@ -8,19 +8,19 @@ Substrate IDE can help developers quickly build [Substrate](https://substrate.de
 
 ### Download
 
-Installation packages are provided in [releases](https://github.com/ObsidianLabs/SubstrateIDE/releases). Please select the appropriate format according to your operating system (.dmg or .zip for Mac OS, .AppImage for Linux).
+Installation packages are provided in [releases](https://github.com/ObsidianLabs/SubstrateIDE/releases). Please select the appropriate format according to your operating system (`.dmg` or `.zip` for Mac OS, `.AppImage` for Linux).
 
 ### Install
 
-- **MacOS**: Double-click to open *SubstrateIDE-x.x.x.dmg* and drag *Substrate IDE* into the *Applications* folder.
-- **Linux**: Right-click *SubstrateIDE-x.x.x.AppImage*, select *Properties* => *Permissions* => *Execute*, and check the option *Allow executing file as progrom*. Close the property window and double-click the application to open it (different Linux systems may have slightly different installation procedures).
+- **MacOS**: Double-click to open `SubstrateIDE-x.x.x.dmg` and drag *Substrate IDE* into the *Applications* folder.
+- **Linux**: Right-click `SubstrateIDE-x.x.x.AppImage`, select *Properties* => *Permissions* => *Execute*, and check the option *Allow executing file as progrom*. Close the property window and double-click the application to open it (different Linux systems may have slightly different installation procedures).
 
 
 ## Feature Walkthrough
 
 ### Prerequisites
 
-When Substrate IDE is properly installed and started for the first time, it will display a welcome page to help you install the dependencies for substrate development - Docker and Rust with WASM.
+When Substrate IDE is properly installed and started for the first time, it will display a welcome page to help you install the dependencies for substrate development - *Docker* and *Rust with WASM*.
 
 <p align="center">
   <img src="./screenshots/dependency.png" width="800px">
@@ -29,7 +29,7 @@ When Substrate IDE is properly installed and started for the first time, it will
 - Substrte IDE uses [Docker](https://www.docker.com/) to run substrate node and the compiler. If you don't have Docker installed before, click the Install Docker button to open the Docker official website and follow the instructions to download and install.
 - [Rust with WASM](https://hub.docker.com/r/obsidians/rust-w-wasm) is a pre-built docker image for nightly Rust and WASM. Click the *Install* button, select the latest version, and a popup window will show up to download the docker image.
 
-After all dependencies are installed, the gray *Skip* button will be changed to a red *Get Started* button. You can click it and enter the main interface of Substrte IDE.
+After all dependencies are installed, the gray *Skip* button will change to a red *Get Started* button. You can click it and enter the main interface of Substrte IDE.
 
 
 ### Create a Project
@@ -102,7 +102,7 @@ The frontend is based on the [substrate frontend template](https://github.com/su
 
 ### Polkadot JS Explorer
 
-Substrate IDE also comes with the [Polkadot JS](https://github.com/polkadot-js/apps) explorer which you can open it through the *Polkadot JS* tab in the header. It will also connect the *polkadot{.js}* keypair manager and ask for permissions to access the keyapirs. After the authorization is granted, you will be able to use the explorer to access on-chain data or submit transactions.
+Substrate IDE also comes with the [Polkadot JS](https://github.com/polkadot-js/apps) explorer which you can open it through the *Polkadot JS* tab in the header. It will also connect the *polkadot{.js}* keypair manager and ask for permissions to access the keypairs. After the authorization is granted, you will be able to use the explorer to access on-chain data or submit transactions.
 
 <p align="center">
   <img src="./screenshots/polkadotjs_explorer.png" width="800px">
