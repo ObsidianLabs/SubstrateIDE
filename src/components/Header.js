@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 
-import { connect, store, dispatch } from '@/redux'
+import { connect } from '@obsidians/redux'
 
 import { Header, NavGuard } from '@obsidians/header'
 import { actions } from '@obsidians/project'
@@ -23,13 +23,8 @@ const networks = [
 
 class HeaderWithRedux extends PureComponent {
   componentDidMount () {
-    const redux = {
-      getState: () => store.getState(),
-      dispatch,
-    }
     actions.history = this.props.history
-    actions.redux = redux
-    this.navGuard = new NavGuard(this.props.history, redux)
+    this.navGuard = new NavGuard(this.props.history)
   }
 
   render () {

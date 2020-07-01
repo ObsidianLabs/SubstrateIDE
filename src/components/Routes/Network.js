@@ -9,7 +9,7 @@ import { InstanceList } from '@obsidians/instances'
 
 import { withRouter } from 'react-router-dom'
 
-import { connect } from '@/redux'
+import { connect } from '@obsidians/redux'
 
 const onLifecycle = ({ lifecycle, runningInstance }) => {
   switch (lifecycle) {
