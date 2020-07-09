@@ -49,7 +49,7 @@ After a project is created, Substrate IDE will automatically navigate to the pro
 Click the *Build* button (with the hammer icon) in the project toolbar (above the file tree) to compile the current substrate project.
 
 <p align="center">
-  <img src="./screenshots/build_button.png" width="200px">
+  <img src="./screenshots/build_button.png" width="240px">
 </p>
 
 To compile a substrate node may take a long time, especially for the first time. Depending on your machine configuration, the compilation time may vary from half an hour to two hours.
@@ -79,7 +79,7 @@ Click one of the *Start* button to start a node as the main node. The terminal b
 Click the orange button in the bottom left corner to open the *polkadot{.js}* keypair manager. If you open it for the first time, you may need to grant the permission for Substrate IDE to access the keypairs.
 
 <p align="center">
-  <img src="./screenshots/keypair_manager.png" width="300px">
+  <img src="./screenshots/keypair_manager.png" width="400px">
 </p>
 
 In the keypair manager, you can create, modify, and delete substrate keys. It is also responsible for signing transactions constructed by Substrate IDE. When a signature is required, the keypair popup window will display again and ask for signing.
@@ -91,7 +91,7 @@ For more info, please refer to: https://github.com/polkadot-js/extension
 When the network is started, switch back to the project editor and click the third button in the toolbar to start the frontend. Substrate IDE will start the frontend project in a new window where you can interact with the running blockchain.
 
 <p align="center">
-  <img src="./screenshots/start_frontend_button.png" width="300px">
+  <img src="./screenshots/start_frontend_button.png" width="240px">
 </p>
 
 The frontend is based on the [substrate frontend template](https://github.com/substrate-developer-hub/substrate-front-end-template). When it is started Substrate IDE will inject the `polkadot{.js}` keypair manager so that you can use it to create and sign transactions.
