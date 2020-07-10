@@ -15,6 +15,7 @@ Installation packages are provided in [releases](https://github.com/ObsidianLabs
 - **MacOS**: Double-click to open `SubstrateIDE-x.x.x.dmg` and drag *Substrate IDE* into the *Applications* folder.
 - **Linux**: Right-click `SubstrateIDE-x.x.x.AppImage`, select *Properties* => *Permissions* => *Execute*, and check the option *Allow executing file as progrom*. Close the property window and double-click the application to open it (different Linux systems may have slightly different installation procedures).
 
+If you want to run Substrate IDE from source or build your own version, please go to [here](build_instruction.md) for instructions.
 
 ## Feature Walkthrough
 
