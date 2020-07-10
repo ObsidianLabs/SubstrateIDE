@@ -1,6 +1,6 @@
 # Run or build Substrate IDE from source
 
-## Required
+## Requirements
 
 - [Node.js v12](https://nodejs.org/en/)
 - [Git](https://git-scm.com)
@@ -10,7 +10,7 @@
 
 1. Create a new folder `substrate` and switch to it
 
-2. Run `git clone` to clone 3 repositories under `substrate` folder:
+2. Run the following commands to clone 3 repositories under `substrate` folder:
 
 ``` bash
 $ git clone https://github.com/ObsidianLabs/SubstrateIDE.git
@@ -18,15 +18,15 @@ $ git clone https://github.com/ObsidianLabs/substrate-components.git
 $ git clone https://github.com/ObsidianLabs/electron-components.git
 ```
 
-3. Switch to `electron-components` folder and run `yarn && yarn build` to install and compile dependencies of *electron-components*
+3. Switch to `electron-components` folder and run `yarn && yarn build` to install dependencies and compile libraries in *electron-components*
 
-4. Switch to `substrate-components` folder and run `yarn && yarn build` to install and compile dependencies of *substrate-components*
+4. Switch to `substrate-components` folder and run `yarn && yarn build` to install dependencies and compile libraries in *substrate-components*
 
-5. Run `git submodule update --init` to download *polkadot-js* extension
+5. Switch to `SubstrateIDE` folder and run `git submodule update --init` to download *polkadot-js* extension
 
-6. Switch to `SubstrateIDE/extensions/polkadot-js` folder and run `yarn && yarn build` to install and compile dependencies of *polkadot-js*
+6. Switch to `SubstrateIDE/extensions/polkadot-js` folder and run `yarn && yarn build` to install dependencies and compile *polkadot-js*
 
-7. Switch to `SubstrateIDE` folder and run `yarn` to install dependencies of *Substrate IDE*
+7. Go back to `SubstrateIDE` folder and run `yarn` to install dependencies for *Substrate IDE*
 
 8. The production version of Substrate IDE uses [Font Awesome Pro](https://fontawesome.com/pro). If you want to run or build Substrate IDE with the pro version, please open `package.json` and replace `@fortawesome/fontawesome-free` with `@fortawesome/fontawesome-pro`, and run `yarn` again. You also need to provide your pro license as instructed [here](https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers#installing-pro).
 
