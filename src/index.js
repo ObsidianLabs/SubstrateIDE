@@ -12,7 +12,11 @@ fileOps.fsType = 'electron'
 
 import('./scss/fonts/open_sans.css')
 import('./scss/fonts/hack.css')
-import('@fortawesome/fontawesome-pro/js/all')
+try {
+  require('@fortawesome/fontawesome-pro/js/all')
+} catch (e) {
+  require('@fortawesome/fontawesome-free/js/all')
+}
 
 document.title = process.env.PROJECT_NAME
 ReactDOM.render(<App />, document.getElementById('root'))
